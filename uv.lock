@@ -311,14 +311,16 @@ wheels = [
 ]
 
 [[package]]
-name = "weatherpipelinelab"
+name = "weather-pipeline-solution"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "httpx" },
     { name = "openpyxl" },
     { name = "pandas" },
+    { name = "pytest" },
     { name = "python-dotenv" },
+    { name = "ruff" },
 ]
 
 [package.dev-dependencies]
@@ -332,7 +334,9 @@ requires-dist = [
     { name = "httpx", specifier = ">=0.28.1" },
     { name = "openpyxl", specifier = ">=3.1.5" },
     { name = "pandas", specifier = ">=3.0.5" },
+    { name = "pytest", specifier = ">=9.1.1" },
     { name = "python-dotenv", specifier = ">=1.2.3" },
+    { name = "ruff", specifier = ">=0.16.8" },
 ]
 
 [package.metadata.requires-dev]
